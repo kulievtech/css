@@ -44,3 +44,13 @@
     color: #311f09;
     background-color: #ecf0f1;
 }
+
+.btn-black {
+    color: #ffffff;
+    background-color: #000000; 
+}
+
+.btn-blue {
+    color: #ffffff;
+    background-color: #0077b6;
+}
