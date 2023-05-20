@@ -55,7 +55,7 @@
 }
 
 .primary-100 {
-    color: hsl(264, 100%, 96%);
+    color: hsl(267, 100%, 96%);
 }
 
 .primary-200 {
@@ -93,137 +93,137 @@
 /* error color */
 
 .error-25 {
-    color: hsl(210, 20%, 99%);
+    color: hsl(4, 88%, 99%);
 }
 
 .error-50 {
-    color: hsl(210, 24%, 98%);
+    color: hsl(4, 88%, 97%);
 }
 
 .error-100 {
-    color: hsl(220, 22%, 96%);
+    color: hsl(4, 95%, 94%);
 }
 
 .error-200 {
-    color: hsl(220, 17%, 93%);
+    color: hsl(4, 98%, 89%);
 }
 
 .error-300 {
-    color: hsl(216, 16%, 84%);
+    color: hsl(4, 96%, 80%);
 }
 
 .error-400 {
-    color: hsl(218, 15%, 65%);
+    color: hsl(4, 93%, 69%);
 }
 
 .error-500 {
-    color: hsl(220, 13%, 46%);
+    color: hsl(4, 86%, 58%);
 }
 
 .error-600 {
-    color: hsl(215, 18%, 34%);
+    color: hsl(4, 74%, 49%);
 }
 
 .error-700 {
-    color: hsl(217, 23%, 27%);
+    color: hsl(4, 76%, 40%);
 }
 
 .error-800 {
-    color: hsl(215, 32%, 17%);
+    color: hsl(4, 72%, 33%);
 }
 
 .error-900 {
-    color: hsl(221, 43%, 11%);
+    color: hsl(8, 65%, 29%);
 }
 
 /* warning color */
 
 .warning-25 {
-    color: hsl(210, 20%, 99%);
+    color: hsl(44, 100%, 98%);
 }
 
 .warning-50 {
-    color: hsl(210, 24%, 98%);
+    color: hsl(44, 100%, 96%);
 }
 
 .warning-100 {
-    color: hsl(220, 22%, 96%);
+    color: hsl(44, 98%, 89%);
 }
 
 .warning-200 {
-    color: hsl(220, 17%, 93%);
+    color: hsl(44, 99%, 77%);
 }
 
 .warning-300 {
-    color: hsl(216, 16%, 84%);
+    color: hsl(42, 99%, 65%);
 }
 
 .warning-400 {
-    color: hsl(218, 15%, 65%);
+    color: hsl(39, 98%, 56%);
 }
 
 .warning-500 {
-    color: hsl(220, 13%, 46%);
+    color: hsl(34, 94%, 50%);
 }
 
 .warning-600 {
-    color: hsl(215, 18%, 34%);
+    color: hsl(28, 97%, 44%);
 }
 
 .warning-700 {
-    color: hsl(217, 23%, 27%);
+    color: hsl(22, 92%, 37%);
 }
 
 .warning-800 {
-    color: hsl(215, 32%, 17%);
+    color: hsl(19, 84%, 31%);
 }
 
 .warning-900 {
-    color: hsl(221, 43%, 11%);
+    color: hsl(18, 80%, 26%);
 }
 
 /* success color */
 
 .success-25 {
-    color: hsl(210, 20%, 99%);
+    color: hsl(144, 83%, 98%);
 }
 
 .success-50 {
-    color: hsl(210, 24%, 98%);
+    color: hsl(144, 83%, 96%);
 }
 
 .success-100 {
-    color: hsl(220, 22%, 96%);
+    color: hsl(141, 82%, 90%);
 }
 
 .success-200 {
-    color: hsl(220, 17%, 93%);
+    color: hsl(144, 78%, 80%);
 }
 
 .success-300 {
-    color: hsl(216, 16%, 84%);
+    color: hsl(148, 74%, 67%);
 }
 
 .success-400 {
-    color: hsl(218, 15%, 65%);
+    color: hsl(150, 66%, 52%);
 }
 
 .success-500 {
-    color: hsl(220, 13%, 46%);
+    color: hsl(152, 82%, 39%);
 }
 
 .success-600 {
-    color: hsl(215, 18%, 34%);
+    color: hsl(153, 96%, 30%);
 }
 
 .success-700 {
-    color: hsl(217, 23%, 27%);
+    color: hsl(155, 96%, 24%);
 }
 
 .success-800 {
-    color: hsl(215, 32%, 17%);
+    color: hsl(155, 90%, 20%);
 }
 
 .success-900 {
-    color: hsl(221, 43%, 11%);
+    color: hsl(156, 88%, 16%);
 }
