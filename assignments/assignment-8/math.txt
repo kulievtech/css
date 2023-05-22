@@ -1,0 +1,19 @@
+Question 1 = The width is 340px because 300px + 20px (padding-left) + 20px (padding-right)
+
+Question 2 = The width is 280px because 200px + 30px (padding-left) + 30px (padding-right) + 10px (border-left) + 10px (border-right)
+
+Question 3 = Total space is 520px because 400px + 20px (padding-left) + 20px (padding-right) + 15px (border-left) + 15px (border-right) + 25px (margin-left) + 25px (margin-right)
+
+Question 4 = Inner box space is 380 px because 350px + 15px (padding-left) + 15px (padding-right)
+
+Question 5 = Content box width is still 500px because there is border-box.
+
+Question 6 = The space between these two boxes is 30 px because of margin collapsing, we take the biggest pixel.
+
+Question 7 = Inner box width is 360px because 300px + 30px (padding-left) + 30px (padding-right)
+
+Question 8 = The width of the content box is still 400px because there is border-box
+
+Question 9 = Total space taken by the box is 280px because 200px + 20px (padding-left) + 20px (padding-right) + 5px (border-left) + 5px (border-right) + 15px (margin-left) + 15px (margin-right)
+
+Question 10 = The space between these two boxes is 35 px because of margin collapsing, we take the biggest pixel.
