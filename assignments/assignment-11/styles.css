@@ -6,26 +6,27 @@
 
 .container {
     margin: 0 auto;
-    width: 1440px;
+    max-width: 1440px;
     height: 1024px;
     padding: 30px;
     font-size: 0;
 }
 
 .long-left-box {
-    width: 262px;
-    height: 964px;
-    background-color: #808080;
+    /* width: 262px; */
     display: inline-block;
+    width: calc(((291 * 100) / 1380) * 1% - 29px);
+    background-color: #808080;
+    height: 964px;
     margin-right: 29px;
 }
 
 .right-section {
     display: inline-block;
+    width: calc(((1089 * 100) / 1380) * 1%);
 }
 
 nav {
-    width: 1088px;
     height: 80px;
     background-color: #808080;
     margin-bottom: 30px;
@@ -33,7 +34,8 @@ nav {
 
 
 .four-boxes-each {
-    width: 249px;
+    /* width: 249px; */
+    width: calc((100% - 90px) / 4);
     height: 200px;
     background-color: #808080;
     display: inline-block;
@@ -48,7 +50,8 @@ nav {
 }
 
 .big-box {
-    width: 809px;
+    /* width: 809px; */
+    width: calc(((839 * 100) / 1089) * 1% - 30px);
     height: 624px;
     background-color: #808080;
     margin-right: 30px;
@@ -56,7 +59,8 @@ nav {
 }
 
 .skinny-box {
-    width: 250px;
+    /* width: 250px; */
+    width: calc(((250 * 100) / 1089) * 1%) ;
     height: 624px;
     background-color: #808080;
     display: inline-block;

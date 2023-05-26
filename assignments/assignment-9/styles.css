@@ -8,8 +8,7 @@
 }
 
 .container {
-    width: 1728px;
-    height: 1117px;
+    max-width: 1728px;
     margin: 0 auto;
     padding: 0 144px 20px;
     font-size: 0;
@@ -26,7 +25,8 @@ nav {
 }
 
 .top-box-1 {
-    width: 947px;
+    /* width: 947px; */
+    width: calc(((967 * 100) / 1440) * 1% - 20px);
     margin-right: 20px;
     height: 460px;
     background-color: #808080;
@@ -41,7 +41,8 @@ nav {
 }
 
 .top-box-2 {
-    width: 473px;
+    /* width: 473px; */
+    width: calc(((473 * 100) / 1440) * 1%);
     height: 460px;
     background-color: #808080;
     display: inline-block;
@@ -51,7 +52,8 @@ nav {
 }
 
 .bottom-box-1 {
-    width: 710px;
+    /* width: 710px; */
+    width: calc(((730 * 100) / 1440) * 1% - 20px);
     height: 497px;
     background-color: #d9d9d9;
     margin-right: 20px;
@@ -61,7 +63,8 @@ nav {
 }
 
 .bottom-box-1-inner-box {
-    width: 223px;
+    /* width: 223px; */
+    width: calc((100% - 40px) / 3);
     height: 457px;
     background-color: #808080;
     display: inline-block;
@@ -79,7 +82,8 @@ nav {
 }
 
 .bottom-box-2 {
-    width: 710px;
+    /* width: 710px; */
+    width: calc(((710 * 100) / 1440) * 1%);
     height: 497px;
     background-color: #808080;
     display: inline-block;
