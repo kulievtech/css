@@ -1,0 +1,159 @@
+/* Scenario 1: */
+p#intro {
+    color: blue; /* 1, 0, 1 winner */
+}
+p {
+    color: red; /* 0, 0, 1 */
+}
+/* --------------- */
+/* Scenario 2: */
+.highlight p {
+    color: green; /* 0, 1, 1 winner */
+}
+div p {
+    color: orange; /* 0, 0, 2 */
+}
+/* --------------- */
+/* Scenario 3: */
+h1.main {
+    font-size: 24px; /* 0, 1, 1  */
+}
+#title {
+    font-size: 30px; /* 1, 0, 0 winner */
+}
+/* --------------- */
+/* Scenario 4: */
+button.large {
+    font-size: 18px; /* 0, 1, 1  */
+}
+button#btn {
+    font-size: 20px; /* 1, 0, 1 winner */
+}
+/* --------------- */
+/* Scenario 5: */
+a.link {
+    color: blue; /* 0, 1, 1 winner */
+}
+.secondary {
+    color: red; /* 0, 1, 0  */
+}
+/* --------------- */
+/* Scenario 6: */
+#banner h1 {
+    color: white; /* 1, 0, 1  */
+}
+.hero h1 {
+    color: black; /* 0, 0, 1 winner */
+}
+/* --------------- */
+/* Scenario 7: */
+.container p {
+    color: green; /* 0, 1, 1 winner */
+}
+div .text {
+    color: yellow; /* 0, 1, 1 winner */
+}
+/* --------------- */
+/* Scenario 8: */
+#post .postTitle {
+    font-size: 36px; /* 1, 1, 0 winner */
+}
+.blogPost h2 {
+    font-size: 32px; /* 0, 1, 1  */
+}
+/* --------------- */
+/* Scenario 9: */
+#banner .headline {
+    color: white; /* 1, 1, 0 winner */
+}
+.hero h1 {
+    color: black; /* 0, 1, 1  */
+}
+/* --------------- */
+/* Scenario 10: */
+.primary .active {
+    color: blue; /* 0, 2, 0  */
+}
+#nav li {
+    color: red; /* 1, 0, 1 winner */
+}
+/* --------------- */
+/* Scenario 11: */
+#mainNav .active {
+    color: red; /* 1, 1, 0 winner */
+}
+.siteNav a {
+    color: blue; /* 0, 1, 1  */
+}
+/* --------------- */
+/* Scenario 12: */
+.container p {
+    color: green; /* 0, 1, 1  */
+}
+div .text {
+    color: yellow; /* 0, 1, 1 winner because it coming last */
+}
+/* --------------- */
+/* Scenario 13: */
+#post .postTitle {
+    font-size: 24px; /* 1, 1, 0 winner */
+}
+.blogPost h2 {
+    font-size: 20px; /* 0, 1, 1  */
+}
+/* --------------- */
+/* Scenario 14: */
+#banner .headline {
+    color: white; /* 1, 1, 0 winner */
+}
+.hero h1 {
+    color: black; /* 0, 1, 1  */
+}
+/* --------------- */
+/* Scenario 15: */
+.primary .active {
+    color: blue; /* 0, 2, 0  */
+}
+#nav li {
+    color: red; /* 1, 0, 1 winner */
+}
+/* --------------- */
+/* Scenario 16: */
+.siteHeader .logo {
+    font-size: 30px; /* 0, 2, 0  */
+}
+#header h1 {
+    font-size: 28px; /* 1, 0, 1 winner */
+}
+/* --------------- */
+/* Scenario 17: */
+form .inputField {
+    border-color: green; /* 0, 1, 1  */
+}
+#signup input {
+    border-color: red; /* 1, 0, 1 winner */
+}
+/* --------------- */
+/* Scenario 18: */
+.siteContent .introText {
+    font-size: 16px; /* 0, 2, 0  */
+}
+#content p {
+    font-size: 18px; /* 1, 0, 1 winner */
+}
+/* --------------- */
+/* Scenario 19: */
+.siteSidebar .widgetTitle {
+    font-size: 22px; /* 0, 2, 0  */
+}
+#sidebar h3 {
+    font-size: 20px; /* 1, 0, 1 winner */
+}
+/* --------------- */
+/* Scenario 20: */
+.siteFooter .copyright {
+    color: white; /* 0, 2, 0  */
+}
+#footer p {
+    color: gray; /* 1, 0, 1 winner */
+}
