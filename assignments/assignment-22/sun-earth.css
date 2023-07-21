@@ -1,0 +1,56 @@
+.sun {
+    width: 200px;
+    height: 200px;
+    background-color: #ffca2c;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.earth {
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: earth-orbit 6s linear infinite;
+}
+
+.moon {
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: moon-orbit 6s linear infinite;
+}
+
+@keyframes earth-orbit {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(200px)
+            rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(200px)
+            rotate(-360deg);
+    }
+}
+
+@keyframes moon-orbit {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(300px)
+            rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(300px)
+            rotate(-360deg);
+    }
+}

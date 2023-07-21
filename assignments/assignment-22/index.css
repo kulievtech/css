@@ -1,0 +1,53 @@
+/* part 1 */
+
+.hover-transition {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: chartreuse;
+    transition: background-color 2s ease-in, transform 4s ease-out;
+    margin-bottom: 100px;
+}
+
+.hover-transition:hover {
+    background-color: coral;
+    transform: scale(0.7);
+    cursor: pointer;
+}
+
+/* part 2 */
+
+body {
+    height: 100vh;
+}
+
+.square-path {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    animation: square-movement 3s ease-in-out 2;
+    position: relative;
+}
+
+@keyframes square-movement {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        top: 0;
+        left: calc(100% - 200px);
+    }
+    50% {
+        top: calc(100% - 200px);
+        left: calc(100% - 200px);
+    }
+    75% {
+        top: calc(100% - 200px);
+        left: 0;
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
