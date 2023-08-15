@@ -1,0 +1,267 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* header-section */
+
+.header-content {
+    padding: 40px 100px;
+}
+
+header img {
+    height: auto;
+    width: 182px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav {
+    width: calc(100% - 182px);
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 30px;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul a {
+    font-size: 30px;
+    color: #8a94a6;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+li:not(:last-child) {
+    margin-right: 30px;
+}
+
+header button {
+    padding: 16px 33px;
+    color: #fff;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    background-color: #377dff;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+}
+
+/* hero-section */
+
+.hero-content {
+    padding: 108px 100px;
+    background-color: #fafbfc;
+}
+
+.hero-text-wrapper {
+    text-align: center;
+}
+
+.hero-text-wrapper h1 {
+    color: #323b4b;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px;
+}
+
+.hero-text-wrapper p {
+    color: #8a94a6;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    width: calc(((805 * 100) / 1240) * 1%);
+    margin: 40px auto;
+}
+
+.hero-each-card {
+    width: calc((100% - 64px) / 3);
+    padding: 41px 31px;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.hero-each-card:not(:last-child) {
+    margin-right: 32px;
+}
+
+.icons {
+    margin-bottom: 30px;
+}
+
+.hero-each-card h2 {
+    color: #323b4b;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 21px;
+}
+
+.hero-each-card p {
+    color: #8a94a6;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+
+.last-part-wrapper p {
+    color: #377dff;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.last-part-wrapper p:not(:last-child) {
+    margin-right: 15px;
+}
+
+.last-part-wrapper img {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* form-section */
+
+.form-content {
+    padding: 124px 312px;
+    background-color: aqua;
+}
+
+.input-text {
+    text-align: center;
+}
+
+.input-text h2 {
+    color: #323b4b;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.input-text p {
+    color: #8a94a6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    margin: 28px auto 52px;
+}
+
+/* footer-section */
+
+.footer-content {
+    padding: 132px 100px;
+}
+
+.logo-about {
+    display: inline-block;
+    width: calc((((426 * 100) / 1240) * 1%) - 144px);
+    margin-right: 144px;
+}
+
+.logo-about p {
+    color: #8a94a6;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    margin-bottom: 32px;
+}
+
+.logo-about > img {
+    margin-bottom: 28px;
+}
+
+.socials-icons img:not(:last-child) {
+    margin-right: 24px;
+}
+
+.each-nav {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: calc((((200 * 100) / 1240) * 1%) - 80px);
+    margin-right: 80px;
+}
+
+.each-nav a {
+    display: block;
+}
+
+.each-nav h4 {
+    color: #323b4b;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    margin-bottom: 27px;
+}
+
+.each-nav a {
+    color: #8a94a6;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.each-nav a:not(:last-child) {
+    margin-bottom: 19px;
+}
+
+.copy-right {
+    color: #8a94a6;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    margin-top: 100px;
+}
