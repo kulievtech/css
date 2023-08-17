@@ -61,9 +61,12 @@ header button {
 
 /* hero-section */
 
+#hero {
+    background-color: #fafbfc;
+}
+
 .hero-content {
     padding: 10.8rem 10rem;
-    background-color: #fafbfc;
 }
 
 .hero-text-wrapper {

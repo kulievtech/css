@@ -62,6 +62,22 @@
     .each-nav {
         width: calc((100% - 27rem) / 4);
     }
+
+    .header-content {
+        padding: 11rem;
+    }
+
+    .hero-content {
+        padding: 11rem;
+    }
+
+    .form-content {
+        padding: 11rem;
+    }
+
+    .footer-content {
+        padding: 11rem;
+    }
 }
 
 @media (max-width: 900px) {
@@ -96,6 +112,22 @@
     input[type="submit"] {
         width: 100%;
     }
+
+    .header-content {
+        padding: 9rem;
+    }
+
+    .hero-content {
+        padding: 9rem;
+    }
+
+    .form-content {
+        padding: 9rem;
+    }
+
+    .footer-content {
+        padding: 9rem;
+    }
 }
 
 @media (max-width: 800px) {
@@ -113,6 +145,22 @@
     input[type="tel"],
     textarea {
         font-size: 1.7rem;
+    }
+
+    .header-content {
+        padding: 7rem;
+    }
+
+    .hero-content {
+        padding: 7rem;
+    }
+
+    .form-content {
+        padding: 7rem;
+    }
+
+    .footer-content {
+        padding: 7rem;
     }
 }
 
@@ -156,6 +204,22 @@
 
     footer a {
         margin-bottom: 0;
+    }
+
+    .header-content {
+        padding: 8rem;
+    }
+
+    .hero-content {
+        padding: 8rem;
+    }
+
+    .form-content {
+        padding: 8rem;
+    }
+
+    .footer-content {
+        padding: 8rem;
     }
 }
 
@@ -205,35 +269,56 @@
         text-align: left;
     }
 
-    .form-content {
-        padding: 12rem 15rem;
-    }
-
     .header-content {
-        padding: 5rem;
+        padding: 6rem;
     }
-}
 
-@media (max-width: 500px) {
-    .form-content {
-        padding: 12rem 12rem;
+    .hero-content {
+        padding: 6rem;
     }
+
+    .form-content {
+        padding: 6rem;
+    }
+
     .footer-content {
         padding: 6rem;
     }
 }
 
-@media (max-width: 450px) {
-    .form-content {
-        padding: 12rem 11rem;
+@media (max-width: 500px) {
+    .header-content {
+        padding: 4rem;
     }
 
     .hero-content {
-        padding: 5rem;
+        padding: 4rem;
     }
 
-    footer {
-        padding: 4rem 2.5rem;
+    .form-content {
+        padding: 4rem;
+    }
+
+    .footer-content {
+        padding: 4rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .header-content {
+        padding: 3rem;
+    }
+
+    .hero-content {
+        padding: 3rem;
+    }
+
+    .form-content {
+        padding: 3rem;
+    }
+
+    .footer-content {
+        padding: 3rem;
     }
 }
 
@@ -242,16 +327,16 @@
         padding: 2rem;
     }
 
-    .form-content {
-        padding: 12rem 8rem;
+    .hero-content {
+        padding: 2rem;
     }
 
-    footer {
-        padding: 4rem 1.5rem;
+    .form-content {
+        padding: 2rem;
     }
 
     .footer-content {
-        padding: 4rem;
+        padding: 2rem;
     }
 }
 
