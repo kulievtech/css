@@ -7,26 +7,35 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Inter";
+}
+
 .container {
-    max-width: 1440px;
+    max-width: 144rem; /* 1440px / 10px = 144rem */
     margin: 0 auto;
 }
 
 /* header-section */
 
 .header-content {
-    padding: 40px 100px;
+    padding: 4rem 10rem;
 }
 
 header img {
     height: auto;
-    width: 182px;
+    width: 18.2rem;
     display: inline-block;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 nav {
-    width: calc(100% - 182px);
+    width: calc(100% - 18.2rem);
     display: inline-block;
     text-align: right;
     vertical-align: middle;
@@ -35,7 +44,7 @@ nav {
 ul {
     display: inline-block;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 3rem;
     text-align: center;
 }
 
@@ -44,30 +53,30 @@ ul li {
 }
 
 ul a {
-    font-size: 30px;
+    font-size: 3rem;
     color: #8a94a6;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 2.4rem;
     text-decoration: none;
 }
 
 li:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 3rem;
 }
 
 header button {
-    padding: 16px 33px;
+    padding: 1.6rem 3.3rem;
     color: #fff;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 2.4rem;
     background-color: #377dff;
-    border-radius: 10px;
+    border-radius: 1rem;
     border: none;
     display: inline-block;
 }
@@ -75,7 +84,7 @@ header button {
 /* hero-section */
 
 .hero-content {
-    padding: 108px 100px;
+    padding: 10.8rem 10rem;
     background-color: #fafbfc;
 }
 
@@ -86,73 +95,70 @@ header button {
 .hero-text-wrapper h1 {
     color: #323b4b;
     font-family: Inter;
-    font-size: 60px;
+    font-size: 6rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 73px;
+    line-height: 7.3rem;
 }
 
 .hero-text-wrapper p {
     color: #8a94a6;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 35px;
+    line-height: 3.5rem;
     width: calc(((805 * 100) / 1240) * 1%);
-    margin: 40px auto;
+    margin: 4rem auto;
 }
 
 .hero-each-card {
-    width: calc((100% - 64px) / 3);
-    padding: 41px 31px;
-    border-radius: 15px;
+    width: calc((100% - 6.4rem) / 3);
+    padding: 4.1rem 3.1rem;
+    border-radius: 1.5rem;
     display: inline-block;
     vertical-align: top;
     background-color: #fff;
 }
 
 .hero-each-card:not(:last-child) {
-    margin-right: 32px;
+    margin-right: 3.2rem;
 }
 
 .icons {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .hero-each-card h2 {
     color: #323b4b;
     font-family: Inter;
-    font-size: 28px;
-    font-style: normal;
+    font-size: 2.8rem;
     font-weight: 700;
-    line-height: 34px;
-    margin-bottom: 21px;
+    line-height: 3.4rem;
+    margin-bottom: 2.1rem;
 }
 
 .hero-each-card p {
     color: #8a94a6;
     font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
+    font-size: 1.8rem;
     font-weight: 500;
-    line-height: 30px;
-    margin-bottom: 16px;
+    line-height: 3rem;
+    margin-bottom: 1.6rem;
 }
 
 .last-part-wrapper p {
     color: #377dff;
     font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
+    font-size: 2rem;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 2.4rem;
     display: inline-block;
     vertical-align: top;
 }
 
 .last-part-wrapper p:not(:last-child) {
-    margin-right: 15px;
+    margin-right: 1.5rem;
 }
 
 .last-part-wrapper img {
@@ -163,7 +169,7 @@ header button {
 /* form-section */
 
 .form-content {
-    padding: 120px 310px;
+    padding: 12rem 31rem;
 }
 
 .input-text {
@@ -173,21 +179,19 @@ header button {
 .input-text h2 {
     color: #323b4b;
     font-family: Inter;
-    font-size: 48px;
-    font-style: normal;
+    font-size: 4.8rem;
     font-weight: 700;
-    line-height: 58px;
+    line-height: 5.8rem;
 }
 
 .input-text p {
     color: #8a94a6;
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
+    font-size: 2rem;
     font-weight: 500;
-    line-height: 35px;
-    margin: 28px auto 52px;
+    line-height: 3.5rem;
+    margin: 2.8rem auto 5.2rem;
 }
 
 input::placeholder,
@@ -201,70 +205,66 @@ input[type="email"],
 input[type="tel"],
 textarea {
     font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
+    font-size: 2rem;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 2.4rem;
 }
 
 .middle-inputs input {
-    width: calc((100% - 33px) / 2);
-    border-radius: 10px;
-    border: 2px solid #fafbfc;
+    width: calc((100% - 3.3rem) / 2);
+    border-radius: 1rem;
+    border: 0.2rem solid #fafbfc;
     background-color: #fff;
-    padding: 20px 25px;
+    padding: 2rem 2.5rem;
 }
 
 .middle-inputs .first-part input:first-child,
 .middle-inputs .second-part input:first-child {
-    margin-right: 33px;
-    margin: 0 33px 43px 0;
+    margin-right: 3.3rem;
+    margin: 0 3.3rem 4.3rem 0;
 }
 
 .middle-inputs textarea {
     width: 100%;
-    height: 296px;
-    border-radius: 10px;
-    border: 2px solid #fafbfc;
+    height: 29.6rem;
+    border-radius: 1rem;
+    border: 0.2rem solid #fafbfc;
     background-color: #fff;
-    padding: 15px 25px;
-    margin-bottom: 50px;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 5rem;
 }
 
 .terms-wrapper {
     display: inline-block;
-    background-color: chartreuse;
     width: calc(((387 * 100) / 820) * 1%);
     margin-right: calc(((161 * 100) / 820) * 1%);
 }
 
 .terms-wrapper input {
-    width: 20px;
-    height: 20px;
-    margin-right: 17px;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1.7rem;
     vertical-align: middle;
 }
 
 .terms-wrapper label {
     color: #8a94a6;
     font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
+    font-size: 2rem;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 2.4rem;
     vertical-align: middle;
 }
 
 input[type="submit"] {
-    border-radius: 10px;
+    border-radius: 1rem;
     background-color: #377dff;
     color: #fff;
     font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
+    font-size: 2rem;
     font-weight: 600;
-    line-height: 24px;
-    padding: 20px 0;
+    line-height: 2.4rem;
+    padding: 2rem 0;
     border: none;
     width: calc(((272 * 100) / 820) * 1%);
     cursor: pointer;
@@ -273,7 +273,7 @@ input[type="submit"] {
 /* footer-section */
 
 .footer-content {
-    padding: 132px 100px;
+    padding: 13.2rem 10rem;
 }
 
 .logo-about {
@@ -287,27 +287,30 @@ input[type="submit"] {
 .logo-about p {
     color: #8a94a6;
     font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
+    font-size: 2rem;
     font-weight: 500;
-    line-height: 35px;
-    margin-bottom: 32px;
+    line-height: 3.5rem;
+    margin-bottom: 3.2rem;
+}
+
+.logo-about img {
+    cursor: pointer;
 }
 
 .logo-about > img {
-    margin-bottom: 28px;
+    margin-bottom: 2.8rem;
 }
 
 .socials-icons img:not(:last-child) {
-    margin-right: 24px;
+    margin-right: 2.4rem;
 }
 
 .each-nav {
     vertical-align: top;
     display: inline-block;
     text-align: left;
-    width: calc((100% - 240px - 282px - 143px) / 4);
-    margin-right: 80px;
+    width: calc((100% - 24rem - 28.2rem - 14.3rem) / 4);
+    margin-right: 8rem;
 }
 
 .portfolio {
@@ -321,33 +324,30 @@ input[type="submit"] {
 .each-nav h4 {
     color: #323b4b;
     font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
+    font-size: 2.4rem;
     font-weight: 600;
-    line-height: 29px;
-    margin-bottom: 27px;
+    line-height: 2.9rem;
+    margin-bottom: 2.7rem;
 }
 
 .each-nav a {
     color: #8a94a6;
     font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
+    font-size: 2rem;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 2.4rem;
     text-decoration: none;
 }
 
 .each-nav a:not(:last-child) {
-    margin-bottom: 19px;
+    margin-bottom: 1.9rem;
 }
 
 .copy-right {
     color: #8a94a6;
     font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
+    font-size: 1.8rem;
     font-weight: 500;
-    line-height: 22px;
-    margin-top: 100px;
+    line-height: 2.2rem;
+    margin-top: 10rem;
 }
