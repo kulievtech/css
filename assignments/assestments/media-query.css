@@ -1,0 +1,286 @@
+@media (max-width: 1400px) {
+    .dribble-fb {
+        margin-bottom: 1.5rem;
+    }
+    .terms-submit {
+        text-align: center;
+    }
+
+    .terms-wrapper {
+        display: block;
+        width: 100%;
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 50%; /* 1 rem is 8px */
+    }
+
+    header #hero,
+    form,
+    footer {
+        padding-left: 7.5rem;
+        padding-right: 7.5rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    footer {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    #hero,
+    form,
+    footer {
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
+    }
+
+    .middle-inputs input {
+        width: 100%;
+    }
+
+    .middle-inputs .first-part input:first-child,
+    .middle-inputs .first-part input:last-child,
+    .middle-inputs .second-part input:first-child,
+    .middle-inputs .second-part input:last-child {
+        margin-bottom: 20px;
+    }
+
+    .logo-about {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .each-nav {
+        width: calc((100% - 27rem) / 4);
+    }
+}
+
+@media (max-width: 900px) {
+    header,
+    #hero,
+    form {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .hero-each-card {
+        width: calc((100% - 3.2rem) / 2);
+    }
+
+    .hero-each-card:nth-child(2) {
+        margin-right: 0;
+    }
+
+    .hero-each-card:first-child {
+        margin-bottom: 3.2rem;
+    }
+
+    .hero-each-card:last-child {
+        display: block;
+        margin: 0 auto;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    #hero .hero-text-wrapper p {
+        width: 80%;
+    }
+
+    .form-content {
+        padding: 12rem 25rem;
+    }
+
+    .name-input,
+    .company-name-input,
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .form-content {
+        padding: 12rem 20rem;
+    }
+
+    footer {
+        padding: 4rem 3.5rem;
+    }
+
+    .hero-each-card {
+        width: 100%;
+        display: block;
+        margin-right: 0;
+    }
+
+    .hero-each-card:nth-child(2) {
+        margin-bottom: 3.2rem;
+    }
+
+    .each-nav {
+        width: calc((100% - 9rem) / 2);
+        margin-bottom: 3.2rem;
+    }
+
+    .each-nav:nth-child(3) {
+        margin-right: 0;
+    }
+
+    .each-nav a {
+        font-size: 1.6rem;
+        margin-bottom: 0;
+    }
+
+    .each-nav h4 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    footer a {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 2.5rem 3.5rem;
+    }
+
+    #hero,
+    form {
+        padding: 4rem 3.5rem;
+    }
+
+    header img {
+        width: 15rem;
+    }
+
+    .hero-text-wrapper h1 {
+        font-size: 5rem;
+    }
+
+    form {
+        border-bottom: 0.1rem solid hsl(219, 14%, 90%);
+    }
+
+    .form-content {
+        width: 100%;
+    }
+
+    .input::placeholder,
+    textarea::placeholder {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    input[type="submit"] {
+        display: block;
+        width: 100%;
+    }
+
+    .terms-wrapper label {
+        width: 100%;
+        margin-bottom: 3.2rem;
+    }
+
+    .terms-wrapper {
+        text-align: left;
+    }
+
+    .form-content {
+        padding: 12rem 15rem;
+    }
+
+    .header-content {
+        padding: 5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .form-content {
+        padding: 12rem 12rem;
+    }
+    .footer-content {
+        padding: 6rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .form-content {
+        padding: 12rem 11rem;
+    }
+
+    .hero-content {
+        padding: 5rem;
+    }
+
+    footer {
+        padding: 4rem 2.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .header-content {
+        padding: 2rem;
+    }
+
+    .form-content {
+        padding: 12rem 8rem;
+    }
+
+    footer {
+        padding: 4rem 1.5rem;
+    }
+
+    .footer-content {
+        padding: 4rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .form-content {
+        padding: 12rem 5rem;
+    }
+    .hero-content {
+        padding: 2rem;
+    }
+    footer {
+        padding: 4rem 0;
+    }
+
+    .footer-content {
+        padding: 3.5rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .form-content {
+        padding: 12rem 2rem;
+    }
+
+    .hero-content {
+        padding: 1rem;
+    }
+
+    .header-content {
+        padding: 0.2rem;
+    }
+}
