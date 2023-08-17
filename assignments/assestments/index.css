@@ -109,6 +109,7 @@ header button {
     border-radius: 15px;
     display: inline-block;
     vertical-align: top;
+    background-color: #fff;
 }
 
 .hero-each-card:not(:last-child) {
@@ -162,8 +163,7 @@ header button {
 /* form-section */
 
 .form-content {
-    padding: 124px 312px;
-    background-color: aqua;
+    padding: 120px 310px;
 }
 
 .input-text {
@@ -190,6 +190,86 @@ header button {
     margin: 28px auto 52px;
 }
 
+input::placeholder,
+textarea::placeholder {
+    color: #b0b7c3;
+}
+
+.name-input,
+.company-name-input,
+input[type="email"],
+input[type="tel"],
+textarea {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.middle-inputs input {
+    width: calc((100% - 33px) / 2);
+    border-radius: 10px;
+    border: 2px solid #fafbfc;
+    background-color: #fff;
+    padding: 20px 25px;
+}
+
+.middle-inputs .first-part input:first-child,
+.middle-inputs .second-part input:first-child {
+    margin-right: 33px;
+    margin: 0 33px 43px 0;
+}
+
+.middle-inputs textarea {
+    width: 100%;
+    height: 296px;
+    border-radius: 10px;
+    border: 2px solid #fafbfc;
+    background-color: #fff;
+    padding: 15px 25px;
+    margin-bottom: 50px;
+}
+
+.terms-wrapper {
+    display: inline-block;
+    background-color: chartreuse;
+    width: calc(((387 * 100) / 820) * 1%);
+    margin-right: calc(((161 * 100) / 820) * 1%);
+}
+
+.terms-wrapper input {
+    width: 20px;
+    height: 20px;
+    margin-right: 17px;
+    vertical-align: middle;
+}
+
+.terms-wrapper label {
+    color: #8a94a6;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    border-radius: 10px;
+    background-color: #377dff;
+    color: #fff;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 20px 0;
+    border: none;
+    width: calc(((272 * 100) / 820) * 1%);
+    cursor: pointer;
+}
+
 /* footer-section */
 
 .footer-content {
@@ -198,8 +278,10 @@ header button {
 
 .logo-about {
     display: inline-block;
-    width: calc((((426 * 100) / 1240) * 1%) - 144px);
-    margin-right: 144px;
+    /* width: calc((((426 * 100) / 1240) * 1%) - 144px);
+    margin-right: 144px; */
+    width: calc(((282 * 100) / 1240) * 1%);
+    margin-right: calc(((143 * 100) / 1240) * 1%);
 }
 
 .logo-about p {
@@ -223,9 +305,13 @@ header button {
 .each-nav {
     vertical-align: top;
     display: inline-block;
-    text-align: center;
-    width: calc((((200 * 100) / 1240) * 1%) - 80px);
+    text-align: left;
+    width: calc((100% - 240px - 282px - 143px) / 4);
     margin-right: 80px;
+}
+
+.portfolio {
+    margin-right: 0;
 }
 
 .each-nav a {
